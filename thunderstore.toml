@@ -6,7 +6,7 @@ schemaVersion = "0.0.1"
 namespace = "zannc"
 name = "The_One_God"
 versionNumber = "1.0.0"
-description = "Allows to configure the boon drops to be specifically one Olympian God."
+description = "Allows you to configure the boon drops to be specifically one Olympian God."
 websiteUrl = "https://github.com/excellent-ae/zannc-The_One_God"
 containsNsfwContent = false
 
