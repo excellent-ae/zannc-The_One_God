@@ -12,7 +12,7 @@ return {
 	-- },
 }, {
 	enabled = "Set to true to enable the mod, false to disable.",
-	ChosenReward = "Set to a chosen god to force them to be the one true God.",
+	ChosenReward = "Set to a chosen god to force them to be the one God.",
 	-- ExtraRewards = {
 	-- 	description = "A list of extra options",
 	-- 	AllowHermes = "Set to true to allow for Hermes to spawn throughout the run.",

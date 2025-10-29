@@ -13,7 +13,7 @@ modutil.mod.Path.Wrap("GetEligibleLootNames", function(base, excludeLootNames)
 		if lootData and not lootData.DebugOnly and lootData.GodLoot and IsGameStateEligible(lootData, lootData.GameStateRequirements) then
 			table.insert(godOutput, chosenReward)
 		else
-			rom.log.warning("The One God: " .. chosenReward .. " is not eligible")
+			rom.log.warning(chosenReward .. " is not eligible")
 		end
 
 		--! Don't really want to do this
