@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+- Actually fix IMGui this time.
+
 ## [1.0.1] - 2025-11-01
 
 - Possibly fix IMGui

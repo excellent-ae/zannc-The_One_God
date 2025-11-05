@@ -2,10 +2,10 @@
 ---@diagnostic disable: lowercase-global
 
 local function CheckGods()
-	local lootList = OrderedKeysToList(game.LootData)
+	local lootList = game.OrderedKeysToList(game.LootData)
 	local godList = {}
 	for i, lootName in ipairs(lootList) do
-		local lootData = LootData[lootName]
+		local lootData = game.LootData[lootName]
 		if lootData and not lootData.DebugOnly and lootData.GodLoot then
 			local godName = lootName:gsub("Upgrade$", "")
 			table.insert(godList, godName)

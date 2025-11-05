@@ -23,20 +23,10 @@ config = chalk.auto("config.lua")
 public.config = config
 
 local function on_ready()
-	if config.enabled == false then
-		return
-	end
-	import_as_fallback(rom.game)
-
 	import("ready.lua")
 end
 
 local function on_reload()
-	if config.enabled == false then
-		return
-	end
-	import_as_fallback(rom.game)
-
 	import("imgui.lua")
 end
 
