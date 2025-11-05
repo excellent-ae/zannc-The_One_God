@@ -22,6 +22,8 @@ reload = mods["SGG_Modding-ReLoad"]
 config = chalk.auto("config.lua")
 public.config = config
 
+import_as_fallback(rom.game)
+
 local function on_ready()
 	import("ready.lua")
 end
