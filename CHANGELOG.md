@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.3] - 2025-12-01
+
 ## [1.0.2] - 2025-11-05
 
 - Actually fix IMGui this time.
@@ -14,7 +16,8 @@
 
 - Initial Release.
 
-[unreleased]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.2...HEAD
+[unreleased]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.3...HEAD
+[1.0.3]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/excellent-ae/zannc-The_One_God/compare/c8843113a3942535e2d5baecb353b9507f2db415...1.0.0
