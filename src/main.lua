@@ -35,5 +35,6 @@ end
 local loader = reload.auto_single()
 
 modutil.once_loaded.game(function()
+	mod = modutil.mod.Mod.Register(_PLUGIN.guid)
 	loader.load(on_ready, on_reload)
 end)

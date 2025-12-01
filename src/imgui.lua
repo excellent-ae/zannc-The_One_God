@@ -1,16 +1,28 @@
 ---@meta _
 ---@diagnostic disable: lowercase-global
 
+mod.originalGodNames = {}
+
 local function CheckGods()
 	local lootList = game.OrderedKeysToList(game.LootData)
 	local godList = {}
+	mod.originalGodNames = {}
+
 	for i, lootName in ipairs(lootList) do
 		local lootData = game.LootData[lootName]
+
 		if lootData and not lootData.DebugOnly and lootData.GodLoot then
-			local godName = lootName:gsub("Upgrade$", "")
-			table.insert(godList, godName)
+			local godName = lootName:gsub("^.*%-", ""):gsub("Upgrade$", "")
+
+			mod.originalGodNames[godName] = lootName
+			if godName ~= lootName then
+				table.insert(godList, godName)
+			else
+				table.insert(godList, lootName)
+			end
 		end
 	end
+
 	return godList
 end
 
