@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.0.4] - 2025-12-01
+
 ## [1.0.3] - 2025-12-01
 
 ## [1.0.2] - 2025-11-05
@@ -16,7 +18,8 @@
 
 - Initial Release.
 
-[unreleased]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.3...HEAD
+[unreleased]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.4...HEAD
+[1.0.4]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.3...1.0.4
 [1.0.3]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.2...1.0.3
 [1.0.2]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.1...1.0.2
 [1.0.1]: https://github.com/excellent-ae/zannc-The_One_God/compare/1.0.0...1.0.1
